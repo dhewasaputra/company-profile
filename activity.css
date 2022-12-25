@@ -1,0 +1,14 @@
+body {
+ background-color: white;
+
+}
+.font-family: 'Poppins'; {
+
+}
+@media only screen and (max-width: 600px) {
+    .navbar {
+     height: auto !important; 
+     z-index: 1 ;
+     background-color: #222222;
+    }
+  }
