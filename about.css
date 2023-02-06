@@ -184,3 +184,8 @@ body {
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
   color: #3f43fd;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 330px;
+}
