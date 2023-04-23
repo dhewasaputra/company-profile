@@ -6,7 +6,7 @@ background-image:url(https://media.istockphoto.com/id/1307794659/photo/vector-he
 @media only screen and (max-width: 600px) {
   .navbar {
    height: auto !important; 
-   z-index: 1 ;
+   /* z-index: 1 ; */
    background-color: #222222;
   }
 }
