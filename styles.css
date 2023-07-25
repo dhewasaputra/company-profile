@@ -164,14 +164,14 @@ body {
 }
 .service-block-two .inner-box:hover .shape-one {
     transform: scale(1);
-    webkit-transition-delay: 300ms;
+    -webkit-transition-delay: 300ms;
     -ms-transition-delay: 300ms;
     transition-delay: 300ms;
 }
 .service-block-two .inner-box:hover .shape-two {
     opacity: 0.4;
     transform: scale(1);
-    webkit-transition-delay: 600ms;
+    -webkit-transition-delay: 600ms;
     -ms-transition-delay: 600ms;
     transition-delay: 600ms;
 }
@@ -196,7 +196,7 @@ body {
   background-size: cover;
   opacity: 0.8;
   max-width: 10000px;
-  min: height 999px; ;
+  min-height:  999px; ;
 }
 
   
@@ -269,5 +269,10 @@ background-image: url(https://i.pinimg.com/600x315/b0/2a/e2/b02ae2523a2c395bab1d
 #clients img {
     transition: all 0.4s ease-in-out;
 }
+@media screen and (max-width: 600px) {
+    .client-logo {
+      height: auto;
+      width: 90% ;
+  }
  
 

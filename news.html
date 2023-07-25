@@ -35,15 +35,108 @@
           </div>
       </div>
   </nav>
-<div class="container">
-  <div class="row text-center">
-    <div class="col-sm-12">
-      <img src="
-      https://img.freepik.com/free-vector/empty-concept-illustration_114360-1233.jpg" alt="" class="img-fluid">
-      <h2 class="Font-poppins">  sorry , no news today , we will update soon </h2>
+  <style>
+    .card-body p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* number of lines to show */
+      -webkit-box-orient: vertical;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="News Image">
+          <div class="card-body">
+            <h5 class="card-title">News Title 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor, est at pellentesque pellentesque, velit neque finibus metus, vitae facilisis justo magna vel erat.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="News Image">
+          <div class="card-body">
+            <h5 class="card-title">News Title 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor, est at pellentesque pellentesque, velit neque finibus metus, vitae facilisis justo magna vel erat.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="News Image">
+          <div class="card-body">
+            <h5 class="card-title">News Title 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor, est at pellentesque pellentesque, velit neque finibus metus, vitae facilisis justo magna vel erat.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Read More</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal1Label">News Title 1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor, est at pellentesque pellentesque, velit neque finibus metus, vitae facilisis justo magna vel erat.</p>
+          <p>Maecenas auctor risus quis massa fringilla, eu dictum mi luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et risus id est cursus varius. Vestibulum eget porttitor tortor. Suspendisse semper metus eu orci venenatis, sit amet aliquam eros tincidunt. Nullam malesuada hendrerit sem, nec fermentum justo tempus vel.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal2Label">News Title 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor, est at pellentesque pellentesque, velit neque finibus metus, vitae facilisis justo magna vel erat.</p>
+          <p>Maecenas auctor risus quis massa fringilla, eu dictum mi luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et risus id est cursus varius. Vestibulum eget porttitor tortor. Suspendisse semper metus eu orci venenatis, sit amet aliquam eros tincidunt. Nullam malesuada hendrerit sem, nec fermentum justo tempus vel.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal3Label">News Title 3</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor, est at pellentesque pellentesque, velit neque finibus metus, vitae facilisis justo magna vel erat.</p>
+          <p>Maecenas auctor risus quis massa fringilla, eu dictum mi luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et risus id est cursus varius. Vestibulum eget porttitor tortor. Suspendisse semper metus eu orci venenatis, sit amet aliquam eros tincidunt. Nullam malesuada hendrerit sem, nec fermentum justo tempus vel.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
     <!-- Optional JavaScript; choose one of the two! -->
