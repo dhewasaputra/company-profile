@@ -198,6 +198,13 @@ body {
   max-width: 10000px;
   min-height:  999px; ;
 }
+@media (max-width: 768px) {
+    .bg-hdr {
+      width: 100% ;
+      background-image: none ;
+    
+    }
+  }
 
   
  
@@ -208,7 +215,7 @@ body {
     
 }
 .bg-img {
-background-image: url(https://i.pinimg.com/600x315/b0/2a/e2/b02ae2523a2c395bab1d7828492338bd.jpg);
+background-image: url(/image/cool-background.png); background-size: cover;
 
 }
 
@@ -269,10 +276,9 @@ background-image: url(https://i.pinimg.com/600x315/b0/2a/e2/b02ae2523a2c395bab1d
 #clients img {
     transition: all 0.4s ease-in-out;
 }
+
 @media screen and (max-width: 600px) {
     .client-logo {
       height: auto;
-      width: 90% ;
+      width: 80% ;
   }
- 
-
