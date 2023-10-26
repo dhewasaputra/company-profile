@@ -1,57 +1,98 @@
 body {
-    background-color: whitesmoke 
-}
-.nav-li {
-    display: inline-block;
-    
+  background-color: none   ;
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://img.freepik.com/free-vector/copy-space-wavy-white-background_23-2148845471.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 600px) {
-    .navbar {
-     height: auto !important; 
-     /* z-index: 1 ;     */
-     background-color: #222222;
-    }
-  }
+marquee {
+  background-color: aqua ;
+  font-size: medium;
+}
+
+.Hdimg {
+  font-weight: bold ;
+  font-family: "Poppins", sans-serif;
+}
+
+.Hd-Desc {
+ text-align: left ;
+ font-family: "Poppins", sans-serif ;
+ font-size: medium ;
+}
+
+.txt-client {
+  text-align: center;
+  font-size: xx-large ;
+  font-family: "Poppins", sans-serif ;
+}
+
+.txt-client2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif ;
+}
+
+#mapContainer {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.card {
+  transition: transform 0.3s;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  width: 100%;
+  height: 30%;
   
-#clients {
-    padding: 60px 0;
-    
-}
-#clients .clients-wrap {
-    border-top: 1px solid #d6eaff;
-    border-left: 1px solid #d6eaff;
-    margin-bottom: 30px;
 }
 
-#clients .client-logo {
-    padding: 64px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-right: 1px solid #d6eaff;
-    border-bottom: 1px solid #d6eaff;
-    overflow: hidden;
-    background: #fff;
-    height: 160px;
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4);
 }
 
-#clients img {
-    transition: all 0.4s ease-in-out;
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
 }
-
-@media screen and (max-width: 600px) {
-    .client-logo {
-      height: auto;
-      width: 80% ;
-  }
-  
+.custom-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s, transform 0.3s;
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: auto ;
+}
+.custom-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: scale(1.05);
+}
+.custom-card .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.custom-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.custom-card .card-text {
+  font-size: 1rem;
+}
+.custom-card .read-more {
+  cursor: pointer;
+  color: black ;
+  font-style: oblique;
+}
